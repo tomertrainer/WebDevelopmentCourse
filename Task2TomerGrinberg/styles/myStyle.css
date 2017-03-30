@@ -2,14 +2,14 @@ body
 { 
    
     background-color:black;
-    background-image:url(/images/lanch.png);
+    background-image:url(../images/lanch.png);
     background-repeat:no-repeat;
  background-position:center;
 
 }
 #logo
 {
-    background-image:url(/images/tomerlogonew.jpg);
+    background-image:url(../images/tomerlogonew.jpg);
     background-repeat:no-repeat;
     width:400px;
     height:300px;
@@ -17,7 +17,19 @@ body
     margin-top:10px;  
 }
 
+#iconlink{
+    background-image:url(/images/Facebook.png);
+    background-repeat:no-repeat;
+    width:1000px;
+    height:1000px;
+}
 
+#iconlink2{
+    background-image:url(/images/Instagram_icon.png);
+     background-repeat:no-repeat;
+    width:50px;
+    height:50px;
+}
 
 #list{
 
@@ -84,21 +96,32 @@ font-size:16.3px;
     color:cornflowerblue;
 }
 #iconlink2{
-    background-image:url(/images/Instagram_icon.png);
+    background-image:url(../images/Instagram_icon.png);
      background-repeat:no-repeat;
     width:50px;
     height:50px;
     background-size:30px;
-    position:fixed;
+    position:absolute;
+  
 }
 #iconlink{
-    background-image:url(/images/Facebook.png);
+    background-image:url(../images/Facebook.png);
     background-repeat:no-repeat;
      width:50px;
     height:50px;
     background-size:30px;
-    position:fixed;
-    margin-left:30px;
+    position:absolute;
+    margin-left:40px;
+  
+
     
   
+}
+#iconlink:hover{
+    background-size:50px;
+    position:absolute;
+}
+#iconlink2:hover{
+    background-size:50px;
+    position:absolute;
 }
