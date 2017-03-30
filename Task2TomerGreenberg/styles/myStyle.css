@@ -1,0 +1,127 @@
+body 
+{ 
+   
+    background-color:black;
+    background-image:url(../images/lanch.png);
+    background-repeat:no-repeat;
+ background-position:center;
+
+}
+#logo
+{
+    background-image:url(../images/tomerlogonew.jpg);
+    background-repeat:no-repeat;
+    width:400px;
+    height:300px;
+    margin-left: 431px;
+    margin-top:10px;  
+}
+
+#iconlink{
+    background-image:url(/images/Facebook.png);
+    background-repeat:no-repeat;
+    width:1000px;
+    height:1000px;
+}
+
+#iconlink2{
+    background-image:url(/images/Instagram_icon.png);
+     background-repeat:no-repeat;
+    width:50px;
+    height:50px;
+}
+
+#list{
+
+border: 10px groove lightskyblue;
+float:right;
+margin-bottom:460px;
+list-style:disc;
+direction:rtl;
+font-weight:bold;
+color:white;
+margin-right:8px;
+margin-left:10px;
+width: 180px;
+height:150px;
+padding-bottom:20px;
+padding-top:20px;
+padding-left:6px;
+font-size:16.3px;
+
+}
+
+.li{
+    margin-right:30px;
+}
+
+#p{
+  float:left;
+    font-weight:bold;
+ margin-top:30px;
+ font-size:25px;
+ color:white;
+ direction:rtl;
+ text-align:center;
+ border: 10px groove lightskyblue;
+ width:180px;
+ height:120px;
+ padding-top:10px;
+ 
+ padding-left:13px;
+
+
+}
+
+#size{
+    font-size:40px;
+}
+
+#sen {
+    position: absolute;
+    margin-left: 300px;
+    color: white;
+    direction: rtl;
+    font-style: initial;
+    font-weight: bold;
+    font-size: 80px;
+    -moz-transform: scale(1.23) rotate(23deg) translateX(23px);
+    -webkit-transform: scale(1.23) rotate(23deg) translateX(23px);
+    -o-transform: scale(1.23) rotate(23deg) translateX(23px);
+    -ms-transform: scale(1.23) rotate(23deg) translateX(23px);
+    transform: scale(1.23) rotate(23deg) translateX(23px);
+}
+
+.san2{
+    color:cornflowerblue;
+}
+#iconlink2{
+    background-image:url(../images/Instagram_icon.png);
+     background-repeat:no-repeat;
+    width:50px;
+    height:50px;
+    background-size:30px;
+    position:absolute;
+  
+}
+#iconlink{
+    background-image:url(../images/Facebook.png);
+    background-repeat:no-repeat;
+     width:50px;
+    height:50px;
+    background-size:30px;
+    position:absolute;
+    margin-left:40px;
+  
+
+    
+  
+}
+#iconlink:hover{
+    background-size:50px;
+    position:absolute;
+}
+#iconlink2:hover{
+    background-size:50px;
+    position:absolute;
+}
