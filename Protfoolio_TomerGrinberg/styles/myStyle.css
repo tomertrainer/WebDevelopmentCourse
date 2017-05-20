@@ -1,7 +1,10 @@
 @font-face {
     font-family: 'Alef-Regular';
+    src: url('../Fonts/Alef-Regular.eot');
+    src: url('../Fonts/Alef-Regular.eot?#iefix') format('embedded-opentype');
     src: url('../Font/Alef-Regular.ttf') format('truetype');
 }
+
 
 body {
     direction: rtl;
